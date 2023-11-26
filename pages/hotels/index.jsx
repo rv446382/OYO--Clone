@@ -3,7 +3,7 @@ import Header1 from "@/components/Header1";
 import Hotel from "@/components/Hotel";
 import axios from "axios";
 import { useEffect, useState } from "react";
-
+//hotels page
 const Hotels = ({ hotels }) => {
     const [price, setPrice] = useState(3500);
     const [list, setList] = useState([]);
